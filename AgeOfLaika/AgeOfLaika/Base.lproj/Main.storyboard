@@ -52,6 +52,18 @@
                                     <rect key="frame" x="0.0" y="248" width="320" height="320"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iq9-F7-KJD">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Convert to Real Dog Years">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="167" width="181" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="convertToRealDogYearsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8oR-ZD-Zxr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -60,6 +72,7 @@
                                 <exclude reference="vr3-oj-dnn"/>
                                 <exclude reference="bEU-H6-GKX"/>
                                 <exclude reference="uEf-GR-Dzt"/>
+                                <exclude reference="Iq9-F7-KJD"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -68,6 +81,7 @@
                                 <include reference="vr3-oj-dnn"/>
                                 <include reference="bEU-H6-GKX"/>
                                 <include reference="uEf-GR-Dzt"/>
+                                <include reference="Iq9-F7-KJD"/>
                             </mask>
                         </variation>
                     </view>
